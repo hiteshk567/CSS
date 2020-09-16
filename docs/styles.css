@@ -1,0 +1,108 @@
+.main {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 0;
+  margin: 30px;
+  overflow: hidden;
+  background-color: rgb(19, 7, 70);
+  outline: 2px solid white;
+  outline-offset: -30px;
+  text-align: center;
+}
+
+.top_h1 {
+  color: white;
+}
+
+.inner_border {
+  padding: 20px;
+}
+
+.heading {
+  width: 10%;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(19, 7, 70);
+  font-size: 30px;
+}
+
+.row1 {
+  transform: skewY(-3deg);
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293__340.jpg");
+  background-color: rgb(19, 7, 70);
+  background-size: cover;
+}
+
+.row2 {
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/16/02/03/pocket-watch-3156771__340.jpg");
+  background-size: cover;
+  transform: skewY(-3deg);
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row3 {
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/01/18/18/guitar-2276181__340.jpg");
+  transform: skewY(-3deg);
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row4 {
+  background-image: url("https://cdn.pixabay.com/photo/2010/12/23/12/45/antelope-canyon-4027__340.jpg");
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  transform: skewY(-3deg);
+  padding: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row5 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/31/19/00/sunset-1634374__340.jpg");
+  background-size: cover;
+  height: 500px;
+  transform: skewY(-3deg);
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.div_heading {
+  transform: skewY(3deg);
+}
+
+.row6 {
+  height: 300px;
+}
+
+p {
+  transform: skewY(3deg);
+  padding: 0 100px;
+  font-size: 20px;
+}
+
+.last_row_para {
+  transform: skewY(0deg);
+  padding-top: 30px;
+}
+
+.first_letter {
+  font-family: "Alex Brush", cursive;
+  font-size: 150px;
+}
+
+.white_font {
+  color: white;
+}
